@@ -1,31 +1,5 @@
 #include "CreateSkin.h"
 
-/* +----------------------------------------------------------------+
- * Classes create:
- * 1. Point3D class (for reference point and sphere center point)   .done
- * 2. PointCloud class (3D model of bool values)                    .done
- * 3. Moving function class (consist object center point, additional
-      parameters, moving vectors)                                   .done
- * 4. Discrete moving function class (t1 and t2)                    .done
- * 5. Exception classes                                             .done
- * 6. PointerWriter class (changing values to ASCII data format
-      and push to the result file)                                  .done
- * +----------------------------------------------------------------+
- * Math functions implement:
- * 1. Sphere moving formula                                         .done
- * 2. The intersection of the cloud with a moving sphere            .done
- * +----------------------------------------------------------------+
- * Documentation:
- * 1. Small documentation(1 page with 2 pictures) to present
-      the mathematical approach of the sphere move point intersection.
-      It should clearly communicate the mathematical approach
-      and how the mathematical code is generated from that.         .-
- * 2. Briefly in 4-5 sentences what problems can arise by using
-      a discrete stepping ∆t                                        .-
- * 3. Add comments                                                  .done
- * +----------------------------------------------------------------+
- * */
-
 int main(int argc, char* argv[]) {
 
     //Point cloud reference point at 0, 0, 0

@@ -82,14 +82,13 @@ namespace Cloud {
                     for (int k = 0; k < max_z; k++) {
                         CurrentPoint.Set_Z(ReferencePoint->Get_Z() + k);
 
-                        // finding simple vector between CurrentPoint and sphereCenter
+                        // finding vector between CurrentPoint and SphereCenter
                         Vector = CurrentPoint-SphereCenter;
-                        len = ~Vector*delta;
-                        !Vector;
 
-                        // if dot product of MovingVector and CurrentPoint > 0 it means that CurrentPoint can be deleted by the Sphere
-                        if(Vector*function.GetMovingVector() > 0){
+                        // if dot product of MovingVector and CurrentPoint >= 0 it means that CurrentPoint can be deleted by the Sphere
+                        if(Vector*function.GetMovingVector() >= 0){
                             // if the distance to the point is less than the radius of the sphere
+                            len = ~Vector*delta;
                             if(len <= SphereRad){
                                 point_cloud[k][i * max_y + j] = false;
                             }

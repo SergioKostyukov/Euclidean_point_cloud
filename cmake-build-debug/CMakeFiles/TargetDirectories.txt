@@ -1,0 +1,3 @@
+C:/Study/ModuleWorks_test_task/ModuleWorks_test_task/cmake-build-debug/CMakeFiles/ModuleWorks_test_task.dir
+C:/Study/ModuleWorks_test_task/ModuleWorks_test_task/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Study/ModuleWorks_test_task/ModuleWorks_test_task/cmake-build-debug/CMakeFiles/rebuild_cache.dir

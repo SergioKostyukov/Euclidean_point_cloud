@@ -1,1 +1,12 @@
+This is a test task from ModuleWorks 
+
+In addition to implementation files, the project contains:
+* Documentation.pdf - file with a brief explanation of the mathematical formulas used;
+* test_task - file with the task;
+* PointVisualizer_win.exe - allows to view the obtained result in 3D.
+
+How to run project:
+* Run main.cpp to create and fill the Result.txt file with points coords
+* In console run "PointVisualizer_win.exe Result.txt" to view result
+
 Let`s get the party started
